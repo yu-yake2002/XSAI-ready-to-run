@@ -30,3 +30,5 @@ This repo may be abandoned in feature, as we are trying to provide prebuilt bina
   * Copy 1-iteration coremark from flash to memory, and run it.
   * Built via the ci of [OpenXiangShan/nexus-am](https://github.com/OpenXiangShan/nexus-am), application is `apps/loader`
 * `flash_recursion_test.bin`
+* `matrixisatest.bin`
+  * Configure matrix extension, and calculate GEMM.
