@@ -4,7 +4,7 @@ if [ ! $NEMU_HOME ]; then
 else
   echo "Use $NEMU_HOME to bump NEMU"
   rm riscv64-nemu-interpreter-so
-  rm riscv64-nemu-interpreter-dual-so
+  # rm riscv64-nemu-interpreter-dual-so
   cd $NEMU_HOME
   make clean
   make riscv64-matrix-xs-ref_defconfig
